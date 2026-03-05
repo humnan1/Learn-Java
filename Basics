@@ -1,0 +1,12 @@
+Java Script can be used to make networking apps, games, mobile apps and command line tools.
+Every browser has a Java Script engine, e.g. Chromes has v8, or can be run using Node.
+ECMA Script= specification for Java
+
+Right click, inspect, find console
+Code editors to write Java Script code: Visual studio code, sublime text etc.
+Node can be used to run java an dinstall third party libraries, so download?
+
+console.log("hello");
+
+
+Open visual studio code and start a new project, make a basic index.html page
