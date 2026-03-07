@@ -10,3 +10,39 @@ console.log("hello");
 
 
 Open visual studio code and start a new project, make a basic index.html page
+node cna be used t uinstall thrid party libraries
+
+New folder in visual studio code
+Create a new file, to make a basic html page, rename the file index.html and type ! and click Tab
+#Create a script line, should be at the end of body most of time
+// this is a comment
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Hello World</h1>
+    <script src = "index.js"></script>  // This shows that our java script code is now in index.js file
+</body>
+
+</html>
+
+// create a new file inthe same folder called index.js, now put all the  java script code there.
+
+
+//let keyord to determine a variable
+//name is our variable
+
+let name = "Mosh";
+console.log(name);
+
+
+
+
+
