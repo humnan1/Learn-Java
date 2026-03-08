@@ -81,4 +81,121 @@ functon square(number) {
 let number = square(2);
 console.log(number);
 
+/* this
+is a
+multiline comment */
+
+
+//three ways to declare a variable in java script
+var = myName = "Beau"
+
+let ourName = "Pip"
+
+const pi = 3.14 //const cant be chnaged
+
+
+var a;
+var b = 2;
+
+a = 7;
+b = a;
+console.log (a)
+
+var myVar = 87;
+myVar++;  // my Var = myVar = 1
+myVar--; // myVar = myVar - 1
+
+var remainder; 
+remainder = 11 % 3;
+
+
+var a = 3;
+var b = 17;
+var c = 12;
+
+a += 12; //a = a + 12
+b += 9 // b = 9 + b 
+c += 7 // c = c + 7
+
+var a = 11;
+var b = 9;
+var c = 3;
+
+a -= 6; // a = a - 6
+b -= 15; // b = b - 15
+c -= 1; // c = c - 1
+
+var a = 5;
+a *= 5; // a = a * 5
+
+var a = 48;
+a = a / 12;
+
+var string = "This is \"double quotes \""  // or start the string eith double quotes
+
+var newStr = "I am first";
+newStr += "I come second."; // added an extra bt of string to our string 
+
+
+
+function wordBlank(myNoun, myAdjective, myVerb, myAdverb) {
+    var results = "";
+    result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb."
+
+    resturn result;
+}
+
+console.log(wordBlanks("dog", "big", "ran", "quickly"));
+
+
+//nested array
+var ourArray = [["the universe", 42], ["everything", 101010]];
+
+var ourArray = ["Chip", "Pip", "Mip"];
+ourArray.push(["Wip", "Tip"]);
+// array had been extended
+
+var ourArray = [1,2,3];
+var removedFromOurArray = ourArray.pop()
+
+ourArray.shift(); // removeds the first item
+ourArray.unshift("agddgh");  // adds thta to th earray so  it id the first item
+
+
+
+function ourFunctionWithArgs(a, b) {
+    console.log(a - b);
+}
+ourFunctionWithArgs(10, 5); //recalling the function and replacing the placeholders with actual valus
+
+function functionWithArgs(a, b) {
+    console.log (a +b);
+}
+functionWithArgs(10, 5)
+
+
+// Scope refers to the visibilty of variables, variales defined outside of a function block have gloabl scope so they can seen everwhere in the code
+
+
+
+var outerwear = "T-Shirt";
+
+function myOutfit() {
+
+    return outerWear;
+}
+consol.log(myOutfit());
+
+
+function minusseven(num) {
+    return num -7;
+}
+
+console.log(minusSeven(10));
+
+function timesFive(num)
+    return num * 5;
+}
+ console.log(timesFive(5));
+
 
