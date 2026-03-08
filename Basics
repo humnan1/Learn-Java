@@ -39,10 +39,46 @@ Create a new file, to make a basic html page, rename the file index.html and typ
 //let keyord to determine a variable
 //name is our variable
 
-let name = "Mosh";
+let name = "Chip";
 console.log(name);
+let age = 45;
+let isApproved = true;
+let firstName = undefined
+let lastName - null;
+
+//typeof operatore in console can tell ou what type of operatore something is e.g.
+typeof name // should give "string"
+// in javascript all the numbers, are of type numbers
+
+let person = {
+    name: "Pip",
+    age = 13
+}
+
+console.log(person)
+
+person["name"] = "Mary";
+
+let selectedColours = ["red", "blue"]; // square brackets are an array
+console.log(selectedColours[0]);  //red display on consle
+selectedColours[2] = "green"; //added a third value to the array
+console.log(selectedColours); //display on console
+
+console.log(selectedColours.length); //nuber of items in array
+
+function greeting(name, lastName) {
+    console.log("hello " + name + " " + lastName);
+}
+
+greet("John", "Pip");
+greet("Pip", "Chip");
 
 
+functon square(number) {
+    return number * number;
+}
 
+let number = square(2);
+console.log(number);
 
 
